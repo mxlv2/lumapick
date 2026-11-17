@@ -10,7 +10,7 @@ let package = Package(
         .executableTarget(
             name: "XuanPian",
             path: "Sources/XuanPian",
-            sources: ["XuanPianApp.swift", "Models.swift", "PreviewService.swift", "Store.swift", "Sheets.swift"]
+            sources: ["XuanPianApp.swift", "Models.swift", "PreviewService.swift", "Store.swift", "Sheets.swift", "Design.swift"]
         ),
         .testTarget(
             name: "XuanPianTests",
